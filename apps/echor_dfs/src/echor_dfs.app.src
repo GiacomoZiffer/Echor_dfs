@@ -5,7 +5,8 @@
   {mod, {echor_dfs_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    eblock_rd
    ]},
   {env,[]},
   {modules, []},
