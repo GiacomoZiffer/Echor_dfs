@@ -1,0 +1,4 @@
+dfs:start().
+dfs:add(path_to_file).
+timer:sleep(2000).
+block_filter:get_res(name_of_file).
