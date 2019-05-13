@@ -64,6 +64,9 @@ get_predecessor() ->
 get_own_id() ->
   application_manager:get_own_id().
 
+get_statistics() ->
+  application_manager:statistics_gather().
+
 run_script() ->
   {ok, Directory} = file:get_cwd(),
   file:script(Directory ++ "/app.commands").
