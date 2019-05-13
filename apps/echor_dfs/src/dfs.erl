@@ -17,7 +17,8 @@
   show_local_files/0,
   get_predecessor/0,
   get_own_id/0,
-  run_script/0]).
+  run_script/0,
+  get_statistics/0]).
 
 start() ->
   block_filter:start().
