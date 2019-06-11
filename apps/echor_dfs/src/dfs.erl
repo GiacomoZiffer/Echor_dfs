@@ -30,7 +30,7 @@ leave() ->
   block_filter:leave().
 
 add(Path) ->
-  block_filter:safe_add(Path).
+  block_filter:add(Path).
 
 safe_add(Path) ->
   block_filter:safe_add(Path).

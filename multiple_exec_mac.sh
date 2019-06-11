@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 for ((i = 0; i < $1; i++)) ; do
+    sleep 5
     osascript -e "tell application \"iTerm\"
                     delay 1
                     set newWindow to (create window with default profile)
@@ -9,5 +10,4 @@ for ((i = 0; i < $1; i++)) ; do
                             write text \"$rebar3 shell\"
                         end tell
                   end tell"
-	sleep 5
 done
