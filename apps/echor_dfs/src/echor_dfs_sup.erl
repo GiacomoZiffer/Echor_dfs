@@ -32,6 +32,7 @@ start_link() ->
 %% Child :: {Id,StartFunc,Restart,Shutdown,Type,Modules}
 init([]) ->
   dfs:run_script(),
+  io:format("[][][][][] Finished execution [][][][][]\n"),
   {ok, {{one_for_all, 0, 1}, []}}.
 
 %%====================================================================
