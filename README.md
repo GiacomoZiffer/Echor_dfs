@@ -11,6 +11,13 @@ The dependency are:
 - **Eblock_rd**: library for handling resource management, more details here: https://github.com/GiacomoZiffer/Eblock_rd
 - **Lager**: used for logging
 
+Multiple Execution
+----
+
+[multiple_exec_mac.sh](multiple_exec_mac.sh) and [multiple_exec_win.sh](multiple_exec_win.sh) are two scripts 
+(the first is the mac version, the second the windows version) for running multiple nodes, whose number is passed
+ as a parameter, with a frequence of *1 nodes/5 sec*. Really useful for testing and for analysis of the performances.
+
 Build
 -----
 
