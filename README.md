@@ -16,7 +16,7 @@ Multiple Execution
 
 [multiple_exec_mac.sh](multiple_exec_mac.sh) and [multiple_exec_win.sh](multiple_exec_win.sh) are two scripts 
 (the first is the mac version, the second the windows version) for running multiple nodes, whose number is passed
- as a parameter, with a frequence of *1 nodes/5 sec*. Really useful for testing and for analysis of the performances.
+ as a parameter, with a frequence of *1 node/5 sec*. Really useful for testing and for analysis of the performances.
 
 Build
 -----
