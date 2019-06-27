@@ -1,6 +1,8 @@
 -module(dfs).
 -author("Giacomo").
 
+-behaviour(gen_dfs).
+
 %% API
 -export([start/0,
   start/1,
